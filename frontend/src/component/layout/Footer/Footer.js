@@ -9,22 +9,21 @@ const Footer = () => {
       <div className="leftFooter">
         <h4>DOWNLOAD OUR APP</h4>
         <p>Download App for Android and IOS mobile phone</p>
-        <img src={playStore} alt="playstore" />
-        <img src={appStore} alt="Appstore" />
+        <img src={playStore} alt="playStore" />
+        <img src={appStore} alt="AppStore" />
       </div>
 
       <div className="midFooter">
-        <h1>ECOMMERCE.</h1>
-        <p>High Quality is our first priority</p>
+        <h1 className="heading">SNAPCART</h1>
+        <p>It’s on time or it’s on us</p>
 
-        <p>Copyrights 2021 &copy; MeAbhiSingh</p>
+        {/* <p>Copyrights 2022 &copy; Kamal Kataria</p> */}
       </div>
 
       <div className="rightFooter">
         <h4>Follow Us</h4>
-        <a href="http://instagram.com/meabhisingh">Instagram</a>
-        <a href="http://youtube.com/6packprogramemr">Youtube</a>
-        <a href="http://instagram.com/meabhisingh">Facebook</a>
+        <a href="http://instagram.com/">Instagram</a>
+        <a href="http://youtube.com/">Youtube</a>
       </div>
     </footer>
   );
